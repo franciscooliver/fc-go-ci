@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: false
-          tags: franciscooliver/fc-go-ci:latest
+          tags: franciscooliver/fc-go-ci:latest 
 
 # name: ci-golang-workflow
 # on: 
