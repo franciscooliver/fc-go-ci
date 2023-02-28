@@ -34,8 +34,8 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v4
         with:
-          push: false
-          tags: franciscooliver/fc-go-ci:latest 
+          push: true
+          tags: franciscoalves90/fc-go-ci:latest 
 
 # name: ci-golang-workflow
 # on: 
